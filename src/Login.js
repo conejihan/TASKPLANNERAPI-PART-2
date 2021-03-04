@@ -8,6 +8,7 @@ import InputLabel from '@material-ui/core/InputLabel';
 import LockIcon from '@material-ui/icons/LockOutlined';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
 import './Login.css';
 
 
@@ -38,6 +39,7 @@ export class Login extends React.Component{
                                     autoComplete="current-password"
                                 />
                             </FormControl>
+                            <Link to="/TodoApp">
                             <Button
                                 type="submit"
                                 fullWidth
